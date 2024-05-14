@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+/* Global CSS - start */
+.container{
+    width: 100%;
+    max-width: 1248px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* Global CSS - end */
+
+
+
+
+
+/* sub__header - start  */
+.sub__header{
+    height: 47px;
+    background: #B36050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub__header p{
+    color: #F1D3B9;
+    font-size: 17px;
+    font-weight: 400;
+}
+/* sub__header - end */
+
+/* Header start */
+
+.header{
+    background: #f6f4ec;
+    width: 100%;
+    height: 71px;
+}
+.header__navbar{
+    width: 100%;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.header__navbar__logo{
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header__navbar__collection{
+    display: flex;
+    gap: 28px;
+    list-style: none;
+    text-decoration: none;
+    color: #B4604D;
+}
+.header__navbar__icons{
+    color: #B36050;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.navbar__cart{
+    display: flex;
+    gap: 4px;
+}
+
+
+/* Header end  */
+
+/* Main start  */
+
+    /* Hero start  */
+.main__hero{
+    width: 100%;
+    height: 435px;
+    background: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main__hero__bottom{
+    width: 100%;
+    height: 304px;
+    background: #A9AE8D;
+}
+.main__hero__bottom__text{
+    width: 100%;
+    height: 304PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.main__hero__bottom__text p{
+    color: #F6F4EC;
+    font-weight: 400;
+}
+.main__hero__bottom__btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #B45F4D;
+    border: none;
+}
+.main__hero__bottom__btn span{
+    font-size: 17px;
+    color: white;
+}
+    /* Hero end */
+
+    /* Wrapper start  */
+ 
+.wrapper{
+    background: #f6f4ec;
+    width: 100%;
+    height: 835px;
+}
+
+.wrapper__text{
+    margin: 39px 0 14px 0;
+    color: #B45F4D;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+.wrapper__box{
+    width: 100%;
+    height: 702px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper__box__card{
+    width: 340px;
+    height: 650px;
+}
+.card__img{
+    width: 100%;
+    height: 510px;
+    margin-bottom: 35px;
+}
+.card__text{
+    color: #B45F4D;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 23px;
+}
+.card__price{
+    color: #B45F4D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.wrapper__icons{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper__icons img{
+    width: 66px;
+    height: 10px;
+}
+
+/* wrapper end  */
+
+/* background start  */
+
+.main__background{
+    width: 100%;
+    height: 407px;
+    background: url(../img/back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 40px 0;
+    padding: 271px 0 45px 0;
+}
+.main__background__text{
+    width: 100%;
+    height: 92px;
+    background: #DF9B7A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.main__background__text p{
+    font-weight: 400;
+    color: #F6F4EC;
+}
+/* background end  */
+
+/* about start  */
+.about{
+    width: 100%;
+    height: 941px;
+    background: #F1D3B9;
+    margin-bottom: 55px;
+}
+.about__dae{
+    width: 100%;  
+    height: 941px;
+    display: flex;
+    justify-content: space-between;
+    padding: 97px 0 67px 0;
+}
+.about__dae__img{
+    width: 500px;
+    height: 750px;
+}
+.about__dae__text{
+    background: #F8F8F8;
+    width: 500px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 42px;
+}
+.about__dae__text__paragraph{
+    margin: 134px 0 22px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #B45F4D;
+}
+.dae__text{
+    margin-bottom: 42px;
+    color: #B45F4D;
+    font-size: 19px;
+    font-weight: 400;
+}
+.dae__text__btn{
+    font-size: 16px;
+    font-weight: 400;
+    color: #B45F4D;
+}
+/* about end  */
+
+/* daehair start  */
+.daehair{
+    width: 100%;
+    height: 260px;
+}
+.daehair__paragraph{
+    text-align: center;
+    margin-bottom: 43px;
+}
+.daehair__wrapper{
+    width: 1200px;
+    height: 138px;
+    padding: 4px 5px;
+    display: flex;
+    gap: 8px;
+}
+.daehair__box1{
+    width: 191px;
+    height: 129px;
+    background: url(../img/box1.png);
+}
+.daehair__box1 img{
+    margin: 74px 72.63px 10px 73.03px;
+}
+.daehair__box2{
+    width: 191px;
+    height: 129px;
+    background: url(../img/box2.png);
+}
+.daehair__box2 img{
+    margin: 74px 72.63px 10px 73.03px;
+}
+.daehair__box3{
+    width: 191px;
+    height: 129px;
+    background: url(../img/box3.png);
+}
+.daehair__box3 img{
+    margin: 74px 72.63px 10px 73.03px;
+}
+.daehair__box4{
+    width: 191px;
+    height: 129px;
+    background: url(../img/box4.png);
+}
+.daehair__box4 img{
+    margin: 74px 72.63px 10px 73.03px;
+}
+.daehair__box5{
+    width: 191px;
+    height: 129px;
+    background: url(../img/box5.png);
+}
+.daehair__box5 img{
+    margin: 74px 72.63px 10px 73.03px;
+}
+.daehair__box6{
+    width: 191px;
+    height: 129px;
+    background: url(../img/box6.png);
+}
+.daehair__box6 img{
+    margin: 74px 72.63px 10px 73.03px;
+}
+/* daehair end */
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background: #F6F4EC;
+}
+.footer__block{
+    width: 100%;
+    height: 238.25px;
+    margin-top: 61.75px;
+    
+}
+.footer__collections{
+    width: 427px;
+    display: flex;
+    gap: 5px;
+}
+.footer__collections__collection{
+    margin-left: 120px;
+    list-style: none;
+}
+.footer__collections__item{
+    text-decoration: none;
+    color: #B45F4D;
+    margin: 10px 0;
+    font-size: 14px;
+}
+.footer__collections__item:hover{
+    cursor: pointer;
+    color: dodgerblue;
+}
